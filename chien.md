@@ -21,7 +21,7 @@ Thẻ block là các thẻ chiếm một dòng riêng, thường được sử d
 3. \<div\>: Thẻ tạo khối, chia bố cục.
 4. \<ul\>: tạo danh sách không có thứ tự.
 5. \<ol\>: tạo danh sách có thứ tự.
-6. \<li\>: Được sử dụng để tạo các mục trong danh sách (<ul> hoặc <ol>).
+6. \<li\>: Được sử dụng để tạo các mục trong danh sách (\<ul\> hoặc \<ol\>).
 6. \<table\>: tạo bảng.
 7. \<form\> : tạo biểu mẫu.
 8. \<video\> : hiển thị video.
@@ -44,12 +44,12 @@ Thẻ semantic là các thẻ HTML có ý nghĩa ngữ nghĩa rõ ràng, giúp c
 ## Bài 2
 BEM (Block, Element, Modifier) là một phương pháp đặt tên lớp CSS có cấu trúc và có mục đích để tạo ra mã CSS dễ đọc, dễ bảo trì và tái sử dụng. Trong BEM, một phần tử giao diện được chia thành các khối (block), các phần tử (element), và các bổ sung (modifier).
 Ví dụ về BEM:
-...html
+```html
     <div class="boy">Boy</div>
     <div class="boy boy__button">Boy Image</div>
     <div class="boy boy__button boy__button--highlighted">Boy Button</div>
 ## Bài 3
-...html
+```html
     <div class="dropdown">
         <div class="dropdown__item">Call To Action</div>
         <div class="dropdown__item">New Project</div>
@@ -58,10 +58,10 @@ Ví dụ về BEM:
         <div class="dropdown__item">Logout</div>
     </div>
 ## Bài 4
-...html
+```html
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap">
 ## Bài 5
-...html
+```html
     <!DOCTYPE html>
     <html lang="en">
     <head>
@@ -92,13 +92,13 @@ Ví dụ về BEM:
     </body>
     </html>
 ## Bài 6
-...html
+```html
     .btn:hover{
             background-color: blue;
             color: red;
     }
 ## Bài 7
-...html
+```html
     <!DOCTYPE html>
     <html>
     <head>
@@ -169,30 +169,30 @@ Ví dụ về BEM:
     </html>
 ## Bài 8
 - Chọn các thẻ div có data-link bắt đầu bằng https:
-      ...html
+     ```html
     `     div[data-link^="https"]{
         background-color: lightgreen;
          color: black;
           }
 - Chọn ra các thẻ div có data-link kết thúc bằng .vn:
-      ...html
+      ```html
           div[data-link$=".vn"] {
             background-color: blueviolet;
           }
 - Chọn ra các thẻ div có data-name có chứa chữ hello:
-      ...html
+      ```html
           div[data-name*="hello"] {
               background-color: yellow;
               color: black;
             }
 - Chọn ra input có type là email:
-      ...html
+      ```html
           input[type="email"] {
               border: 1px solid blue;
               color: black;
             }
 - Chọn ra input có name là fullname:
-      ...html
+     ```html
           input[name="fullname"] {
               border: 1px solid green;
               background-color: lightgray;
