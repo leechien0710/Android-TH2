@@ -48,6 +48,7 @@ Ví dụ về BEM:
     <div class="boy">Boy</div>
     <div class="boy boy__button">Boy Image</div>
     <div class="boy boy__button boy__button--highlighted">Boy Button</div>
+`
 ## Bài 3
 ```html
     <div class="dropdown">
