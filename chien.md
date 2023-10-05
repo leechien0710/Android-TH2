@@ -2,6 +2,7 @@
 ## Bài 1
 ### Thẻ inline
 Các thẻ inline là những thẻ không tạo ra dòng mới nghĩa là nội dung của thẻ bến dưới chúng sẽ ngang hàng với nội dung thẻ inline chứ chúng không xuống dòng. 
+
 *10 thẻ inline:*
 1. \<a\>:: Liên kết đến một trang web hoặc một tài liệu khác.
 2. \<i\>: in ra chữ nghiêng.
@@ -15,6 +16,7 @@ Các thẻ inline là những thẻ không tạo ra dòng mới nghĩa là nội
 10. \<img\>: hiển thị hình ảnh.
 ### Thẻ block:
 Thẻ block là các thẻ chiếm một dòng riêng, thường được sử dụng để tạo các phần tử bố cục lớn, chẳng hạn như đoạn văn, tiêu đề, và hình ảnh.
+
 *10 thẻ block:*
 1. \<h1\>-\<h6\>: Thẻ tiêu đề
 2. \<p\: Thẻ đoạn văn
@@ -29,6 +31,7 @@ Thẻ block là các thẻ chiếm một dòng riêng, thường được sử d
 10. \<fieldset\>: Được sử dụng để tạo một nhóm các phần tử <input> trong một biểu mẫu HTML và tạo ra một khung xung quanh chúng.
 ### Thẻ semantic:
 Thẻ semantic là các thẻ HTML có ý nghĩa ngữ nghĩa rõ ràng, giúp cho trình duyệt và các công cụ hỗ trợ truy cập có thể hiểu được nội dung của trang web một cách chính xác hơn.
+
 *Các thẻ semantic:*
 1. \<header\>: Được sử dụng để đánh dấu phần tiêu đề hoặc phần đầu của một phần tử hoặc trang web.
 2. \<nav\>: Được sử dụng để đánh dấu các liên kết điều hướng, thường xuất hiện ở đầu trang web.
