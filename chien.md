@@ -177,14 +177,15 @@ Ví dụ về BEM:
 - Chọn các thẻ div có data-link bắt đầu bằng https:
      ```html
     `     div[data-link^="https"]{
-        background-color: lightgreen;
-         color: black;
+              background-color: lightgreen;
+              color: black;
           }
      ```
 - Chọn ra các thẻ div có data-link kết thúc bằng .vn:
       ```html
           div[data-link$=".vn"] {
             background-color: blueviolet;
+            color: black;
           }
       ```
 - Chọn ra các thẻ div có data-name có chứa chữ hello:
