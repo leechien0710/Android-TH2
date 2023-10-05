@@ -58,9 +58,11 @@ Ví dụ về BEM:
         <div class="dropdown__item">Setting</div>
         <div class="dropdown__item">Logout</div>
     </div>
+```
 ## Bài 4
 ```html
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;600&display=swap">
+```
 ## Bài 5
 ```html
     <!DOCTYPE html>
@@ -92,12 +94,14 @@ Ví dụ về BEM:
         <button class="btn btn__round">Button</button>
     </body>
     </html>
+```
 ## Bài 6
 ```html
     .btn:hover{
             background-color: blue;
             color: red;
     }
+```
 ## Bài 7
 ```html
     <!DOCTYPE html>
@@ -168,6 +172,7 @@ Ví dụ về BEM:
         </div>
     </body>
     </html>
+```
 ## Bài 8
 - Chọn các thẻ div có data-link bắt đầu bằng https:
      ```html
@@ -175,28 +180,33 @@ Ví dụ về BEM:
         background-color: lightgreen;
          color: black;
           }
+     ```
 - Chọn ra các thẻ div có data-link kết thúc bằng .vn:
       ```html
           div[data-link$=".vn"] {
             background-color: blueviolet;
           }
+  ```
 - Chọn ra các thẻ div có data-name có chứa chữ hello:
       ```html
           div[data-name*="hello"] {
               background-color: yellow;
               color: black;
             }
+  ```
 - Chọn ra input có type là email:
       ```html
           input[type="email"] {
               border: 1px solid blue;
               color: black;
             }
+  ```
 - Chọn ra input có name là fullname:
      ```html
           input[name="fullname"] {
               border: 1px solid green;
               background-color: lightgray;
             }
+     ```
 
   
