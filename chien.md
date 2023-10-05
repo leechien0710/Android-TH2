@@ -182,32 +182,36 @@ Ví dụ về BEM:
           }
      ```
 - Chọn ra các thẻ div có data-link kết thúc bằng .vn:
-      ```html
+
+  ```html
           div[data-link$=".vn"] {
             background-color: blueviolet;
             color: black;
           }
-      ```
+  ```
 - Chọn ra các thẻ div có data-name có chứa chữ hello:
-      ```html
+
+  ```html
           div[data-name*="hello"] {
               background-color: yellow;
               color: black;
             }
-      ```
+  ```
 - Chọn ra input có type là email:
-      ```html
+
+  ```html
           input[type="email"] {
               border: 1px solid blue;
               color: black;
             }
-      ```
+  ```
 - Chọn ra input có name là fullname:
-     ```html
+
+  ```html
           input[name="fullname"] {
               border: 1px solid green;
               background-color: lightgray;
             }
-     ```
+  ```
 
   
